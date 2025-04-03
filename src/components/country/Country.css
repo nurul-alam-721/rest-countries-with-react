@@ -1,0 +1,16 @@
+.country{
+    border: 2px solid salmon;
+    border-radius: 20px;
+    padding: 20px;
+}
+.country-flag{
+    height: 150px;
+    width: 250px;
+}
+
+.country-visited{
+    background-color:darkslategray;
+}
+.btn-visited{
+    background-color: green;
+}
