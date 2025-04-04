@@ -3,3 +3,14 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
+.visited{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+    gap:30px;
+    border: 2px solid skyblue;
+    padding: 20px;
+    border-radius: 20px;
+    justify-items: center;
+}
