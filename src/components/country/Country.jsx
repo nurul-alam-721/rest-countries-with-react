@@ -19,7 +19,7 @@ const Country = ({country, handleVisitedCountries, handleVisitedFlags}) => {
              <img src={country.flags.png} alt="" className='country-flag'/>
             <p>{country.independent? 'An Independent Country': 'Not an Independent Country'}</p>
             <p>Total Population: {country.population}</p>
-            <button onClick={handleVisited} className={visited && 'btn-visited'}>{visited? "Visited" : "Not Visted"}</button>
+            <button onClick={handleVisited} className={visited && 'btn-visited'}>{visited? "Visited" : "Not Visited"}</button>
         </div>
     );
 };

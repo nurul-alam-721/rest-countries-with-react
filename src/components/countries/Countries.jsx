@@ -18,8 +18,8 @@ const Countries = ({countriesPromise}) => {
     
     return (
         <div>
-            <h1>Total Countries: {countries.length}</h1>
-            <h2>Travelled So Far: {visitedCountries.length}</h2>
+            <h1>Total Countries in the World: {countries.length}</h1>
+            <h2>Traveled So Far: {visitedCountries.length}</h2>
            <ol>
           <div className={visitedCountries.length>0 && 'visited'}>
           {
